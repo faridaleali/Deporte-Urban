@@ -19,5 +19,5 @@ Pagina de administracion: El administrador de la pagina puede agregar, editar y 
 HTML5, CSS3, JavaScript, Boostrap5, chartjs y figma: Estas tecnologías se utilizan para la estructura, diseño y funcionalidad interactiva de la página web.
 <br>
 # Instalación
-https://github.com/PiaLopez19/Modulo-2.git
+https://github.com/faridaleali/Deporte-Urban.git
 
