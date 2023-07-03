@@ -1,0 +1,81 @@
+:root {
+    --creame-color1: #FAF9F7;
+    --creame-color2: #F1F1EF;
+    --creame-color3: #080C17;
+    --creame-color4: #DADAD8;
+  }
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+#adminLogin {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-admin:hover {
+	cursor: pointer;
+}
+
+main{
+    background-image: url('https://i.pinimg.com/564x/76/a8/72/76a87232f496e5f50fec00e3098da5a0.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: #DADAD8; 
+    min-height: 80vh;
+}
+
+.div-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-tipografia{
+    opacity: none;
+    color: black;
+    font-family: 'Staatliches', cursive;
+}
+
+  .img-error{
+    max-width: 80%;
+  }
+
+
+@media (min-width: 1250px) {
+    .img-error{
+        max-width: 50%;
+    }
+} 
+
+.no-encontrada{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+button {
+	padding: 5px 10px;
+	border: none;
+	background-color: #4caf50;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+	/* Estilos personalizados para el footer */
+.footer {
+	background-color: #7c7b7b;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.footer p {
+	margin-bottom: 0;
+}

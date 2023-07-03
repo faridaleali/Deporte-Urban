@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+
+    <!-- Link de fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!--Enlace css personalizado-->
+    <link rel="stylesheet" href="css/principal.css">
+
+    <!-- Enlace a Bootstrap v5.3.0 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/nosotros.css">
+   
+  </head>
+  <body>
+    <!---Inicio nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/images/logo.png" alt="logo de la empresa" width="40" height="40" class="d-inline-block align-text-top">
+        </a>
+        <button class=" boton-b navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./nosotros.html">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a id="login-navbar" class="nav-link" href="./login.html">Iniciar sesion</a>
+            </li>
+          </ul>
+          <div class="divCarrito">
+            <img class="imgCarrito" src="../assets/images/carrito.png" data-bs-toggle="modal" data-bs-target="#modalCarrito" alt="carrito de compras">
+            <span id="carrito" class="rounded-circle">0</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!---Fin nav-->
+
+    <div class="modal" id="modalCarrito" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5 class="modal-title">Tu Carrito</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="modalBody" class="d-flex justify-content-center flex-column modal-body">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="img-section">
+        <div class="container">
+            <div class="container py-5">
+                <div class="row py-4">
+                    <div class="col-lg-7 ">
+                      <h1 class="">¡Bienvenidos a Deport Urban!</h1>
+                      <p class="pt-3 img-text">Nos complace ofrecerte una amplia selección de ropa deportiva de alta calidad y estilo vanguardista. En Deport Urban, fusionamos la pasión por el deporte con la moda contemporánea para brindarte prendas que te hagan sentir cómodo, confiado y en sintonía con tu estilo de vida activo.
+
+                        En nuestra tienda, encontrarás una gran variedad de productos diseñados para satisfacer las necesidades de los deportistas urbanos modernos. Ya sea que te guste correr, entrenar en el gimnasio, practicar yoga o simplemente disfrutar de un estilo de vida activo, tenemos todo lo que necesitas para verte y sentirte genial mientras te superas a ti mismo.</p>
+                    </div>
+                    <h2 class="mt-3 mb-5 col-12 text-center text-light nuestro-equipo rounded bolder">Nuestro Equipo</h2>
+                    <div class="back-p col-lg-4 col-md-4 col-sm-12 text-center">
+                      <h3 class="text-light">Pia</h3>
+                      <img src="../assets/images/P.jpg" alt="Pia" class="m-2 img-nos border border-secondary">
+                      <p class="nos-text mt-2 text-light">Full stack developer</p>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <h3 class="text-light">Farid</h3>
+                    <img src="../assets/images/F.jpg" alt="Farid" class="text-light m-2 img-nos border border-secondary">
+                    <p class="nos-text mt-2 text-light">Full stack developer</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                  <h3 class="text-light">Lautaro</h3>
+                  <img src="../assets/images/Ljpg.jpg" alt="Lautaro" class="text-light m-2 img-nos border border-secondary">
+                  <p class="nos-text mt-2 mb-5 text-light">Full stack developer</p>
+              </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+  <footer class="footer">
+    <div class="container">
+      <p>© 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Enlace a los scripts de Bootstrap v5.3.0  -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Enlace a los scripts de Login  -->
+  <script defer src="../js/checklogin.js"></script>
+
+  <!-- Enlace a los scripts de Login  -->
+  <script defer src="../js/carrito.js"></script>
+</body>
+</html>

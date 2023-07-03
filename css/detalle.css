@@ -1,0 +1,97 @@
+/* Estilos para la página de administración */
+/* root: 
+	--#FAF9F7
+	#F1F1EF
+	#080C17
+	#DADAD8
+ */
+
+:root {
+  --creame-color1: #FAF9F7;
+  --creame-color2: #F1F1EF;
+  --creame-color3: #080C17;
+  --creame-color4: #DADAD8;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	background-color: var(--creame-color1);
+}
+
+#adminLogin {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-admin:hover {
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+}
+
+.modal-content{
+	background-color: #DADAD8 !important;
+}
+
+.contenidoModal{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.eliminar-product{
+	cursor: pointer;
+	display: flex;
+	justify-content: end;
+}
+
+.boton-css{
+	width: 20%;
+}
+
+.divCarrito{
+	background-color: #DADAD8;
+}
+
+@media screen and (min-width:992px){
+    .divImg{
+		max-width: 50%;
+	}
+	.divText{
+		margin-top:20%;
+	}
+}
+
+.imgCarrito{
+	max-width: 3%;
+}
+
+
+.remeraImg{
+	max-width: 70%;
+}
+
+
+.boton-b {
+	padding: 5px 10px;
+	border: none;
+	background-color: #4caf50;
+	color: white;
+	cursor: pointer;
+}
+
+.boton-b:hover {
+	background-color: #45a049;
+}
+
+	/* Estilos personalizados para el footer */
+.footer {
+	background-color: #7c7b7b;
+	padding: 20px 0;
+	text-align: center;
+}

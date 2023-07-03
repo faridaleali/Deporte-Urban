@@ -1,0 +1,124 @@
+/* Paleta de color CSS */
+
+:root {
+  --creame-color1: #FAF9F7;
+  --creame-color2: #F1F1EF;
+  --creame-color3: #080C17;
+  --creame-color4: #DADAD8;
+  --creame-color5: #8cc7da;
+  --creame-color6: #76d8a7;
+  --creame-color7: #51ac7e;
+} 
+
+/* Caracteristicas generales del BODY */
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: var(--creame-color4);
+	box-sizing: border-box;
+}
+
+#adminLogin {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-admin:hover {
+	cursor: pointer;
+}
+
+/* .boton-cerrar-sesion {
+	margin-left: 5px;
+	background-color: red;
+} */
+
+/******* Parte MAIN de la pagina ********/
+
+/* Titulo general */
+
+h1 {
+	text-align: center;
+}
+
+/* Graficas */
+
+.titulos-chart {
+	display: flex;
+	justify-content: space-between;
+}
+
+.graficos {
+	display: flex;
+	justify-content: space-around
+}
+
+/* Botones Tablas */
+
+.btn-agregar {
+	padding: 5px 10px;
+	border: none;
+	background-color: var(--creame-color6);
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.btn-agregar:hover {
+	background-color: var(--creame-color7);
+}
+
+.boton-agregar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+.crear-objeto {
+	display: flex;
+	flex-direction: row;
+}
+
+.botones-admin {
+	padding: 3px 7px;
+	border: none;
+	background-color: var(--creame-color4);
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.botones-admin:hover {
+	background-color: var(--creame-color5);
+}
+
+/* Tablas */
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #f5f5f5;
+}
+
+/******* Parte FOOTER de la pagina ********/
+
+.footer {
+	background-color: #7c7b7b;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.footer p {
+	margin-bottom: 0;
+}

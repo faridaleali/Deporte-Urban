@@ -1,0 +1,145 @@
+:root{
+    --color-primario--: #FAF9F7;
+    --color-secundario: #080C17 ;
+    --color-accesorio-1:#F1F1EF ;
+    --color-accesorio-2:#DADAD8 ;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--color-primario--);
+}
+
+/*nav*/
+
+#adminLogin {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-admin:hover {
+	cursor: pointer;
+}
+
+#carrito {
+    font-weight: bold;
+    color: white;
+}
+
+.imgCarrito{
+	max-width: 35px;
+    max-height: 35px;
+}
+
+.remeraImg{
+	max-width: 70%;
+}
+
+.eliminar-product{
+	cursor: pointer;
+	display: flex;
+	justify-content: end;
+}
+
+
+/*fin nav*/
+
+/*main*/
+.main {
+    background: url(../assets/images/5635383-fitness-wallpapers.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 100% ;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color:var(--color-secundario);
+}
+
+.btn-secondary  {
+    --bs-btn-color: #FAF9F7 !important; 
+    --bs-btn-bg: #080C17 !important; 
+    --bs-btn-border-color: #080C17 !important;
+    --bs-btn-hover-color: #FAF9F7 !important;
+    --bs-btn-hover-bg: #080C17 !important;
+    --bs-btn-hover-border-color: #080C17 !important;
+    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-active-color: #FAF9F7 !important;
+    --bs-btn-active-bg: #080C17 !important;
+    --bs-btn-active-border-color: #080C17 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #FAF9F7 !important;
+    --bs-btn-disabled-bg: #080C17 !important;
+    --bs-btn-disabled-border-color: #080C17 !important;
+}
+
+@media screen and (max-width: 600px){
+    .main {
+        height: 100%;
+        background-position: 80%;
+    }
+    .main h1 {
+        font-size:2rem;
+        margin-right: 9rem;
+    }
+}
+
+h2 {
+    color: var(--color-secundario) ;
+    font-weight: 700;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: -3px -2px 26px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -3px -2px 26px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px -2px 26px -6px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+#myinpunt{
+    width: 30%;
+}
+
+h3 {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+/*.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: var(--color-secundario);
+    color: var(--color-primario--);
+    font-weight: 700;
+    border-radius: 60px;
+    
+}
+
+
+
+/*fin main*/
+
+/*footer*/
+.footer {
+	background-color: #7c7b7b;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.footer p {
+	margin-bottom: 0;
+}
+/*fin footer*/

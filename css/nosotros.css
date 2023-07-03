@@ -1,0 +1,116 @@
+:root{
+    --color-primario--: #FAF9F7;
+    --color-secundario: #080C17 ;
+    --color-accesorio-1:#F1F1EF ;
+    --color-accesorio-2:#DADAD8 ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--color-primario--);
+}
+
+#adminLogin {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-admin:hover {
+	cursor: pointer;
+}
+
+.img-section {
+    
+    background: url('../assets/images/wp3325889.jpg')no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: 50% 50% ;
+    width: 100%;
+}
+
+.nuestro-equipo{
+    padding: 1%;
+    background-color: #7c7b7b;
+} 
+
+/* Carrito */
+
+#carrito {
+    font-weight: bold;
+    color: white;
+}
+
+.imgCarrito{
+	max-width: 35px;
+    max-height: 35px;
+}
+
+.remeraImg{
+	max-width: 70%;
+}
+
+.eliminar-product{
+	cursor: pointer;
+	display: flex;
+	justify-content: end;
+}
+ 
+/* .section-img {
+    background-color: var(#DADAD8 );
+    background-size: cover;
+} */
+
+section {
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color:var(--color-primario--);
+}
+
+.img-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-primario--);
+}
+
+.text-game {
+    border: 5px #fff;
+    border-color: #fff;
+    border-radius: 30px;
+  }
+
+
+.img-nos {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: var(--color-secundario);
+
+}
+
+.nos-text {
+   color: var(--color-secundario); 
+   font-size: 1rem;
+   font-weight: 600;
+}
+
+/*footer*/
+.footer {
+	background-color: #7c7b7b;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.footer p {
+	margin-bottom: 0;
+}
+/*fin footer*/
